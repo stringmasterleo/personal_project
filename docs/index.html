@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Will you be my Valentine, Girl's name?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Main GIF at the top (hidden on last page) -->
+    <img
+      id="mainGif"
+      src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa252dTVrYmdhYmJsYWhvZnN2dTl3ZGRldzloY2RseHg0Nm5jcmRrNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MdAf4GJVvA0HxZfJcr/giphy.gif"
+      alt="Valentine GIF"
+      class="main-gif"
+    />
+    <h1 id="question">Will you be my valentine, Girl's name?</h1>
+    <div class="buttons">
+      <button id="yesBtn" class="yes">Yes</button>
+      <button id="noBtn" class="no">No</button>
+    </div>
+    <!-- On the final page: hug GIF and message -->
+    <div id="endMsg" style="display:none; text-align:center;">
+      <img
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWF2czkyNm11dDNoa3NkMXVldHhwdHprZmNxaWJycXY2aHdiMzBtbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/aYTwuQENgOANFRyxj3/giphy.gif"
+        alt="Hug GIF"
+        class="end-gif"
+      />
+      <div style="font-size:2em; color:red; font-weight:bold; margin-top:16px;">
+        Darling!! there is no escape.
+      </div>
+    </div>
+    <div id="hearts"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

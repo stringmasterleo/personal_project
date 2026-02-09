@@ -1,0 +1,1 @@
+To host the project please follow the instructions given here- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch
